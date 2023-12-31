@@ -1,10 +1,13 @@
 import {
   Exclusive,
+  Footer,
   Hero,
   Sharing,
+  SocialMedia,
   Traveller,
   Trending,
 } from "../../components";
+import About from "../../components/About/About";
 
 const Home = () => {
   return (
@@ -14,6 +17,9 @@ const Home = () => {
       <Trending />
       <Sharing />
       <Traveller />
+      <About />
+      <SocialMedia />
+      <Footer />
     </>
   );
 };
