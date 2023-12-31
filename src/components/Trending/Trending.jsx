@@ -1,5 +1,5 @@
 import { trending } from "../../Data/data";
-import { Content, Section, Img } from "../Exclusive/ExclusiveStyles";
+import { Content, Section, Img, Info } from "../Exclusive/ExclusiveStyles";
 import { Title } from "../index";
 import { MainContainer } from "./TrendingStyles";
 
@@ -14,7 +14,7 @@ const Trending = () => {
           return (
             <Content key={id}>
               <Img src={img} alt={name} />
-              <h3>{name}</h3>
+              <Info>{name}</Info>
             </Content>
           );
         })}

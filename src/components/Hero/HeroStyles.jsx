@@ -33,16 +33,17 @@ const Heading = styled.h1`
   font-weight: ${(props) => props.theme.fontWeight.medium};
   font-size: ${(props) => props.theme.fontSize.xl};
   color: ${(props) => props.theme.colors.secondary};
-  margin-top: 15rem;
 
   @media (min-width: 300px) {
     font-weight: ${(props) => props.theme.fontWeight.extraBold};
     font-size: ${(props) => props.theme.fontSize.medium};
+    margin-top: 13rem;
   }
 
   @media (min-width: 768px) {
     font-weight: ${(props) => props.theme.fontWeight.medium};
     font-size: ${(props) => props.theme.fontSize.xl};
+    margin-top: 15rem;
   }
 `;
 
@@ -89,7 +90,7 @@ const InputContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 5px;
+  padding: 5px 20px;
 `;
 
 const Label = styled.label`
@@ -116,7 +117,7 @@ const Content = styled.div`
   @media (min-width: 300px) {
     justify-content: flex-start;
     border-top: 1px solid #ccc;
-    padding: 8px;
+    padding: 5px;
   }
 
   @media (min-width: 768px) {
@@ -130,6 +131,10 @@ const SearchIconContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 5px;
+
+  @media (min-width: 300px) and (max-width: 600px) {
+    border-top: 1px solid #ccc;
+  }
 
   @media (min-width: 768px) and (max-width: 1024px) {
     position: absolute;

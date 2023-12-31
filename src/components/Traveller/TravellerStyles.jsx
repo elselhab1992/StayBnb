@@ -34,8 +34,8 @@ const TravelInfo = styled(Info)`
   display: flex;
   justify-content: center;
   align-items: center;
+  top: 3%;
   left: 0;
-  top: 50%;
   text-align: center;
 `;
 
