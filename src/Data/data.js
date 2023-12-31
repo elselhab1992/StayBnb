@@ -105,7 +105,7 @@ export const trending = [
   {
     id: 3,
     img: Img13,
-    name: "new york",
+    name: "paris",
   },
   {
     id: 4,

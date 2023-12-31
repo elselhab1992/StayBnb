@@ -12,13 +12,16 @@ import {
   NavLink,
   RegisterDiv,
 } from "./NavbarStyles";
+import { Link } from "react-router-dom";
 
 function Navbar({ click, handleClick }) {
   return (
     <Header>
-      <LogoContainer>
-        <Logo src={logo} alt="logo" />
-      </LogoContainer>
+      <Link to="/">
+        <LogoContainer>
+          <Logo src={logo} alt="logo" />
+        </LogoContainer>
+      </Link>
 
       <Container>
         <nav>

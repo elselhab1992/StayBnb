@@ -14,7 +14,9 @@ const Trending = () => {
           return (
             <Content key={id}>
               <Img src={img} alt={name} />
-              <Info>{name}</Info>
+              <Info>
+                <h4>{name}</h4>
+              </Info>
             </Content>
           );
         })}
