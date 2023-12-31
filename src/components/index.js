@@ -5,5 +5,6 @@ import Hero from "./Hero/Hero";
 import Button from "./Button/Button";
 import Title from "./Title/Title";
 import Exclusive from "./Exclusive/Exclusive";
+import Trending from "./Trending/Trending";
 
-export { Navbar, Sidebar, Header, Hero, Button, Title, Exclusive };
+export { Navbar, Sidebar, Header, Hero, Button, Title, Exclusive, Trending };
