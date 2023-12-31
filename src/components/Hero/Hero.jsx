@@ -22,13 +22,13 @@ const Hero = () => {
         <Content>
           <InputContainer>
             <Label>check in</Label>
-            <Input type="text" placeholder="Add Date" />
+            <Input type="date" placeholder="Add Date" />
           </InputContainer>
         </Content>
         <Content>
           <InputContainer>
             <Label>check out</Label>
-            <Input type="text" placeholder="Add Date" />
+            <Input type="date" placeholder="Add Date" />
           </InputContainer>
         </Content>
         <Content>
