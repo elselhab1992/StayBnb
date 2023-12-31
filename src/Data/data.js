@@ -16,6 +16,11 @@ import Img12 from "../assets/new-york.png";
 import Img13 from "../assets/paris.png";
 import Img14 from "../assets/new-delhi.png";
 
+//traveller
+import Img15 from "../assets/story-1.png";
+import Img16 from "../assets/story-2.png";
+import Img17 from "../assets/story-3.png";
+
 export const exclusives = [
   {
     id: 1,
@@ -99,5 +104,23 @@ export const trending = [
     id: 4,
     img: Img14,
     name: "new delhi",
+  },
+];
+
+export const traveller = [
+  {
+    id: 1,
+    img: Img15,
+    name: "popular destinations in asia",
+  },
+  {
+    id: 2,
+    img: Img16,
+    name: "travelled more than 100 countries",
+  },
+  {
+    id: 3,
+    img: Img17,
+    name: "thailand trip",
   },
 ];

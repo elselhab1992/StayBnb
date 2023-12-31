@@ -1,4 +1,10 @@
-import { Exclusive, Hero, Trending } from "../../components";
+import {
+  Exclusive,
+  Hero,
+  Sharing,
+  Traveller,
+  Trending,
+} from "../../components";
 
 const Home = () => {
   return (
@@ -6,6 +12,8 @@ const Home = () => {
       <Hero />
       <Exclusive />
       <Trending />
+      <Sharing />
+      <Traveller />
     </>
   );
 };

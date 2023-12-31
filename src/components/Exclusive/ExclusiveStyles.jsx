@@ -53,7 +53,7 @@ const Content = styled.div`
 const Img = styled.img`
   width: 100%;
   border-radius: 10px;
-  filter: brightness(60%);
+  filter: brightness(65%);
 `;
 
 const Info = styled.div`

@@ -6,5 +6,18 @@ import Button from "./Button/Button";
 import Title from "./Title/Title";
 import Exclusive from "./Exclusive/Exclusive";
 import Trending from "./Trending/Trending";
+import Sharing from "./Sharing/Sharing";
+import Traveller from "./Traveller/Traveller";
 
-export { Navbar, Sidebar, Header, Hero, Button, Title, Exclusive, Trending };
+export {
+  Navbar,
+  Sidebar,
+  Header,
+  Hero,
+  Button,
+  Title,
+  Exclusive,
+  Trending,
+  Sharing,
+  Traveller,
+};
