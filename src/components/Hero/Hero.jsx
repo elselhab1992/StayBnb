@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import {
   Section,
   Heading,
@@ -11,6 +12,8 @@ import {
 } from "./HeroStyles";
 
 const Hero = () => {
+  const ref = useRef();
+
   return (
     <Section>
       <Heading>find your next stay</Heading>
@@ -23,11 +26,11 @@ const Hero = () => {
           <InputContainer>
             <Label>check in</Label>
             <Input
-              type="text"
+              type="date"
+              ref={ref}
               onChange={(e) => console.log(e.target.value)}
-              onFocus={(e) => (e.target.type = "date")}
-              onBlur={(e) => (e.target.type = "text")}
-              placeholder="Add Date"
+              onFocus={() => (ref.current.type = "date")}
+              onBlur={() => (ref.current.type = "date")}
             />
           </InputContainer>
         </Content>
@@ -35,11 +38,11 @@ const Hero = () => {
           <InputContainer>
             <Label>check out</Label>
             <Input
-              type="text"
+              type="date"
+              ref={ref}
               onChange={(e) => console.log(e.target.value)}
-              onFocus={(e) => (e.target.type = "date")}
-              onBlur={(e) => (e.target.type = "text")}
-              placeholder="Add Date"
+              onFocus={() => (ref.current.type = "date")}
+              onBlur={() => (ref.current.type = "date")}
             />
           </InputContainer>
         </Content>
