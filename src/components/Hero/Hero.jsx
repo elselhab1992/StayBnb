@@ -22,13 +22,25 @@ const Hero = () => {
         <Content>
           <InputContainer>
             <Label>check in</Label>
-            <Input type="date" />
+            <Input
+              type="text"
+              onChange={(e) => console.log(e.target.value)}
+              onFocus={(e) => (e.target.type = "date")}
+              onBlur={(e) => (e.target.type = "text")}
+              placeholder="Add Date"
+            />
           </InputContainer>
         </Content>
         <Content>
           <InputContainer>
             <Label>check out</Label>
-            <Input type="date" />
+            <Input
+              type="text"
+              onChange={(e) => console.log(e.target.value)}
+              onFocus={(e) => (e.target.type = "date")}
+              onBlur={(e) => (e.target.type = "text")}
+              placeholder="Add Date"
+            />
           </InputContainer>
         </Content>
         <Content>
