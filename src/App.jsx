@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
-import { Home } from "./Pages";
-import { Header } from "./components";
+import { Home, Places } from "./Pages";
+import { Header, SocialMedia, Footer } from "./components";
 
 function App() {
   return (
@@ -12,7 +12,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/places" element={<Places />} />
         </Routes>
+        <SocialMedia />
+        <Footer />
       </BrowserRouter>
     </Theme>
   );

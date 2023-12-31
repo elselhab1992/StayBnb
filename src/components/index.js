@@ -11,6 +11,7 @@ import Traveller from "./Traveller/Traveller";
 import About from "./About/About";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import Footer from "./Footer/Footer";
+import PlacesFilter from "./PlacesFilter/PlacesFilter";
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   About,
   SocialMedia,
   Footer,
+  PlacesFilter,
 };

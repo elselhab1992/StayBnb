@@ -12,17 +12,17 @@ const Sidebar = ({ click, closeMenu }) => {
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="popular" onClick={closeMenu}>
+          <MobileLink to="/places" onClick={closeMenu}>
             Popular Places
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="travel" onClick={closeMenu}>
+          <MobileLink to="/travel" onClick={closeMenu}>
             Travel
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="packages" onClick={closeMenu}>
+          <MobileLink to="/packages" onClick={closeMenu}>
             Packages
           </MobileLink>
         </li>

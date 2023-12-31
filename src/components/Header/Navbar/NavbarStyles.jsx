@@ -65,7 +65,7 @@ const NavLink = styled(Link)`
   transition: 700ms;
 
   &:hover {
-    color: ${(props) => props.theme.colors.secondary};
+    color: ${(props) => props.theme.colors.buttons};
     cursor: pointer;
   }
 `;

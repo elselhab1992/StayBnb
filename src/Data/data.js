@@ -21,6 +21,13 @@ import Img15 from "../assets/story-1.png";
 import Img16 from "../assets/story-2.png";
 import Img17 from "../assets/story-3.png";
 
+//places
+import place1 from "../assets/house-1.png";
+import place2 from "../assets/house-2.png";
+import place3 from "../assets/house-3.png";
+import place4 from "../assets/house-4.png";
+import place5 from "../assets/house-5.png";
+
 export const exclusives = [
   {
     id: 1,
@@ -122,5 +129,53 @@ export const traveller = [
     id: 3,
     img: Img17,
     name: "thailand trip",
+  },
+];
+
+export const places = [
+  {
+    id: 1,
+    img: place1,
+    desc: "private villa in san francisco",
+    name: "Queen Room with street view",
+    info: "1 bedroom, 1 Bathroom, Wifi, Kitchen",
+    guests: "2 guests",
+    price: "£100 / day",
+  },
+  {
+    id: 2,
+    img: place2,
+    desc: "private villa in san francisco",
+    name: "Queen Room with street view",
+    info: "1 bedroom, 1 Bathroom, Wifi, Kitchen",
+    guests: "2 guests",
+    price: "£100 / day",
+  },
+  {
+    id: 3,
+    img: place3,
+    desc: "private villa in san francisco",
+    name: "Queen Room with street view",
+    info: "1 bedroom, 1 Bathroom, Wifi, Kitchen",
+    guests: "2 guests",
+    price: "£100 / day",
+  },
+  {
+    id: 4,
+    img: place4,
+    desc: "private villa in san francisco",
+    name: "Queen Room with street view",
+    info: "1 bedroom, 1 Bathroom, Wifi, Kitchen",
+    guests: "2 guests",
+    price: "£100 / day",
+  },
+  {
+    id: 5,
+    img: place5,
+    desc: "private villa in san francisco",
+    name: "Queen Room with street view",
+    info: "1 bedroom, 1 Bathroom, Wifi, Kitchen",
+    guests: "2 guests",
+    price: "£100 / day",
   },
 ];

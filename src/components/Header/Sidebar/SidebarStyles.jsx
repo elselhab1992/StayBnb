@@ -28,6 +28,7 @@ const MobileLink = styled(Link)`
   font-weight: ${(props) => props.theme.fontWeight.medium};
 
   &:hover {
+    color: ${(props) => props.theme.colors.buttons};
     cursor: pointer;
   }
 `;

@@ -27,13 +27,13 @@ function Navbar({ click, handleClick }) {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="popular">Popular Places</NavLink>
+              <NavLink to="/places">Popular Places</NavLink>
             </li>
             <li>
-              <NavLink to="travel">Travel</NavLink>
+              <NavLink to="/travel">Travel</NavLink>
             </li>
             <li>
-              <NavLink to="packages">Packages</NavLink>
+              <NavLink to="/packages">Packages</NavLink>
             </li>
           </NavLinks>
         </nav>

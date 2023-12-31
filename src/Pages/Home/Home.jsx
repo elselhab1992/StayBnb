@@ -1,9 +1,7 @@
 import {
   Exclusive,
-  Footer,
   Hero,
   Sharing,
-  SocialMedia,
   Traveller,
   Trending,
 } from "../../components";
@@ -18,8 +16,6 @@ const Home = () => {
       <Sharing />
       <Traveller />
       <About />
-      <SocialMedia />
-      <Footer />
     </>
   );
 };
