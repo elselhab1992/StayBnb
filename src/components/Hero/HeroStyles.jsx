@@ -26,7 +26,6 @@ const Section = styled.section`
 
   @media (min-width: 1200px) {
     padding: 0;
-    gap: 1rem;
   }
 `;
 
