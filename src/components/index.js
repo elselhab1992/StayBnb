@@ -15,6 +15,11 @@ import PlacesFilter from "./PlacesFilter/PlacesFilter";
 import Card from "./Card/Card";
 import PlacesCard from "./PlacesCard/PlacesCard";
 import HouseCard from "./HouseCard/HouseCard";
+import HouseAvailability from "./HouseAvailability/HouseAvailability";
+import HouseService from "./HouseService/HouseService";
+import HouseInfo from "./HouseInfo/HouseInfo";
+import Location from "./Location/Location";
+import Host from "./Host/Host";
 
 export {
   Navbar,
@@ -34,4 +39,9 @@ export {
   Card,
   PlacesCard,
   HouseCard,
+  HouseAvailability,
+  HouseService,
+  HouseInfo,
+  Location,
+  Host,
 };

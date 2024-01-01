@@ -11,6 +11,7 @@ import {
   NavLinks,
   NavLink,
   RegisterDiv,
+  ScrollLink,
 } from "./NavbarStyles";
 import { Link } from "react-router-dom";
 
@@ -33,10 +34,28 @@ function Navbar({ click, handleClick }) {
               <NavLink to="/places">Popular Places</NavLink>
             </li>
             <li>
-              <NavLink to="/travel">Travel</NavLink>
+              <ScrollLink
+                to="trending"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-100}
+                duration={500}
+              >
+                Trending
+              </ScrollLink>
             </li>
             <li>
-              <NavLink to="/packages">Packages</NavLink>
+              <ScrollLink
+                to="about"
+                spy={true}
+                smooth={true}
+                hashSpy={true}
+                offset={-100}
+                duration={500}
+              >
+                About
+              </ScrollLink>
             </li>
           </NavLinks>
         </nav>

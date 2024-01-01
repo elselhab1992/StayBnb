@@ -42,4 +42,14 @@ const Container = styled.div`
   gap: 1rem;
 `;
 
-export { Section, MainContainer, Container };
+const PagesCount = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 5rem;
+  font-size: ${(props) => props.theme.fontSize.medium};
+`;
+
+export { Section, MainContainer, Container, PagesCount };

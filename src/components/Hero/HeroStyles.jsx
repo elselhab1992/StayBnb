@@ -59,7 +59,7 @@ const Container = styled.div`
     grid-template-columns: 1fr;
     gap: 5px;
     border-radius: 5px;
-    width: 70%;
+    width: 65%;
   }
 
   @media (min-width: 768px) {
@@ -130,7 +130,7 @@ const SearchIconContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding-top: 0.5rem;
 
   @media (min-width: 300px) and (max-width: 600px) {
     border-top: 1px solid #ccc;

@@ -7,7 +7,7 @@ import { MainContainer } from "./TrendingStyles";
 
 const Trending = () => {
   return (
-    <Section>
+    <Section id="trending">
       <Title title="Trending Places" />
       <MainContainer>
         {trending.map((card) => {

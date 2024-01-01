@@ -3,7 +3,7 @@ import { AboutSection } from "./AboutStyles";
 
 const About = () => {
   return (
-    <AboutSection>
+    <AboutSection id="about">
       <Title title="about StayBnB" />
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium

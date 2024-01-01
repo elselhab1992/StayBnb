@@ -22,7 +22,6 @@ const TopContent = styled.div`
 
   @media (min-width: 768px) {
     flex-direction: row;
-    gap: 3rem;
   }
 `;
 
@@ -66,13 +65,12 @@ const MainImg = styled.img`
 
 const SideImgsContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   width: 29%;
 
   @media (min-width: 300px) {
     width: 100%;
-    grid-template-columns: repeat(3, 1fr);
   }
 
   @media (min-width: 768px) {
@@ -81,7 +79,8 @@ const SideImgsContainer = styled.div`
   }
 
   @media (min-width: 1300px) {
-    width: 29%;
+    width: 50%;
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Button } from "../../index";
-import { SideBar, MobileLink } from "./SidebarStyles";
+import { SideBar, MobileLink, MobileScrollLink } from "./SidebarStyles";
 
 const Sidebar = ({ click, closeMenu }) => {
   return (
@@ -17,14 +17,30 @@ const Sidebar = ({ click, closeMenu }) => {
           </MobileLink>
         </li>
         <li>
-          <MobileLink to="/travel" onClick={closeMenu}>
-            Travel
-          </MobileLink>
+          <MobileScrollLink
+            to="trending"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={-100}
+            duration={500}
+            onClick={closeMenu}
+          >
+            Trending
+          </MobileScrollLink>
         </li>
         <li>
-          <MobileLink to="/packages" onClick={closeMenu}>
-            Packages
-          </MobileLink>
+          <MobileScrollLink
+            to="about"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={-100}
+            duration={500}
+            onClick={closeMenu}
+          >
+            About
+          </MobileScrollLink>
         </li>
         <li>
           <Button to="/" onClick={closeMenu}>

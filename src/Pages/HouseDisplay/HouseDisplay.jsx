@@ -1,16 +1,28 @@
-import { HouseCard } from "../../components";
+import {
+  HouseCard,
+  HouseAvailability,
+  HouseService,
+  HouseInfo,
+  Location,
+  Host,
+} from "../../components";
 import { useParams } from "react-router-dom";
 import { places } from "../../Data/data";
-import { Section } from "../Places/PlacesStyles";
+import { MainSection } from "./HouseDisplayStyles";
 
 const HouseDisplay = () => {
   const { id } = useParams();
   const place = places.find((item) => item.id === Number(id));
 
   return (
-    <Section>
+    <MainSection>
       <HouseCard {...place} />
-    </Section>
+      <HouseAvailability />
+      <HouseService />
+      <HouseInfo />
+      <Location />
+      <Host />
+    </MainSection>
   );
 };
 

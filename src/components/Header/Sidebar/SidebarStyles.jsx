@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { ScrollLink } from "../Navbar/NavbarStyles";
 
 const SideBar = styled.ul`
   position: fixed;
@@ -33,4 +34,8 @@ const MobileLink = styled(Link)`
   }
 `;
 
-export { SideBar, MobileLink };
+const MobileScrollLink = styled(ScrollLink)`
+  font-size: ${(props) => props.theme.fontSize.medium};
+`;
+
+export { SideBar, MobileLink, MobileScrollLink };

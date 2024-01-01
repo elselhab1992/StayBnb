@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Link as Scroll } from "react-scroll";
 
 const Header = styled.header`
   display: flex;
@@ -70,6 +71,18 @@ const NavLink = styled(Link)`
   }
 `;
 
+const ScrollLink = styled(Scroll)`
+  color: ${(props) => props.theme.colors.primary};
+  font-size: ${(props) => props.theme.fontSize.small};
+  font-weight: ${(props) => props.theme.fontWeight.medium};
+  transition: 700ms;
+
+  &:hover {
+    color: ${(props) => props.theme.colors.buttons};
+    cursor: pointer;
+  }
+`;
+
 const RegisterDiv = styled.div`
   @media (max-width: 1024px) {
     display: none;
@@ -85,4 +98,5 @@ export {
   NavLinks,
   NavLink,
   RegisterDiv,
+  ScrollLink,
 };
