@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalStyles from "./GlobalStyles";
 import Theme from "./Theme";
-import { Home, Places } from "./Pages";
+import { Home, Places, HouseDisplay } from "./Pages";
 import { Header, SocialMedia, Footer } from "./components";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/places" element={<Places />} />
+          <Route path="/places/:id" element={<HouseDisplay />} />
         </Routes>
         <SocialMedia />
         <Footer />

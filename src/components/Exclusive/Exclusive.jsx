@@ -1,24 +1,17 @@
-import { Title } from "../index";
+/* eslint-disable no-unused-vars */
+
+import { Title, Card } from "../index";
 import { exclusives } from "../../Data/data";
-import { Section, Container, Content, Img, Info } from "./ExclusiveStyles";
+import { Section, Container } from "./ExclusiveStyles";
 
 const Exclusive = () => {
   return (
     <Section>
       <Title title="Exclusives" />
       <Container>
-        {exclusives.map((location, index) => {
-          const { img, name, price } = location;
-
-          return (
-            <Content key={index}>
-              <Img src={img} alt={name} />
-              <Info>
-                <h5>{name}</h5>
-                <h6>{price}</h6>
-              </Info>
-            </Content>
-          );
+        {exclusives.map((card) => {
+          const { id, img, name, price } = card;
+          return <Card {...card} key={id} />;
         })}
       </Container>
     </Section>

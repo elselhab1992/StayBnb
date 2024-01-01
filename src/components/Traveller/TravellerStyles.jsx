@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container, Info } from "../Exclusive/ExclusiveStyles";
+import { Container } from "../Exclusive/ExclusiveStyles";
 import ButtonStyles from "../Button/ButtonStyles";
 
 const TravelContainer = styled(Container)`
@@ -29,14 +29,4 @@ const ButtonContainer = styled.div`
   align-items: center;
 `;
 
-const TravelInfo = styled(Info)`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 3%;
-  left: 0;
-  text-align: center;
-`;
-
-export { TravelContainer, TravelButton, ButtonContainer, TravelInfo };
+export { TravelContainer, TravelButton, ButtonContainer };

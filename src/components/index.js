@@ -12,6 +12,9 @@ import About from "./About/About";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import Footer from "./Footer/Footer";
 import PlacesFilter from "./PlacesFilter/PlacesFilter";
+import Card from "./Card/Card";
+import PlacesCard from "./PlacesCard/PlacesCard";
+import HouseCard from "./HouseCard/HouseCard";
 
 export {
   Navbar,
@@ -28,4 +31,7 @@ export {
   SocialMedia,
   Footer,
   PlacesFilter,
+  Card,
+  PlacesCard,
+  HouseCard,
 };

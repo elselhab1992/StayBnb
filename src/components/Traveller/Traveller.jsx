@@ -1,11 +1,12 @@
-import { Content, Img, Section } from "../Exclusive/ExclusiveStyles";
-import { Title } from "../index";
+/* eslint-disable no-unused-vars */
+
+import { Section } from "../Exclusive/ExclusiveStyles";
+import { Title, Card } from "../index";
 import { traveller } from "../../Data/data";
 import {
   TravelButton,
   TravelContainer,
   ButtonContainer,
-  TravelInfo,
 } from "./TravellerStyles";
 
 const Traveller = () => {
@@ -16,14 +17,7 @@ const Traveller = () => {
         {traveller.map((card) => {
           const { img, name, id } = card;
 
-          return (
-            <Content key={id}>
-              <Img src={img} alt={name} />
-              <TravelInfo>
-                <h3>{name}</h3>
-              </TravelInfo>
-            </Content>
-          );
+          return <Card {...card} key={id} />;
         })}
       </TravelContainer>
       <ButtonContainer>

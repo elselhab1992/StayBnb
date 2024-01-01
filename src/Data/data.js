@@ -118,12 +118,12 @@ export const traveller = [
   {
     id: 1,
     img: Img15,
-    name: "popular destinations in asia",
+    name: "Greece Trip",
   },
   {
     id: 2,
     img: Img16,
-    name: "travelled more than 100 countries",
+    name: "Iceland Trip",
   },
   {
     id: 3,
